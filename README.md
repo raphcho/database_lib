@@ -21,7 +21,7 @@ dbh.createTables();
 dbh.getAll(TableThatExtendsModel.getClass());
 ```
 
-## Récupérer le premier élément
+## Récupérer le premier élément d'une table
 ```java
 dbh.findFirst(TableThatExtendsModel.getClass());
 ```
