@@ -25,3 +25,24 @@ dbh.getAll(TableThatExtendsModel.getClass());
 ```java
 dbh.findFirst(TableThatExtendsModel.getClass());
 ```
+
+## Insérer un élément dans une table
+```java
+TableThatExtendsModel obj = new TableThatExtendsModel();
+dbh.insertItem(obj);
+```
+
+## Insérer plusieurs élément dans une table
+```java
+TableThatExtendsModel obj = new TableThatExtendsModel();
+TableThatExtendsModel obj2 = new TableThatExtendsModel();
+TableThatExtendsModel obj3 = new TableThatExtendsModel();
+
+ArrayList<TableThatExtendsModel> objs = new ArrayList<TableThatExtendsModel>();
+objs.add(obj);
+objs.add(obj2);
+objs.add(obj3);
+
+dbh.insertCollection(objs);
+dbh.insertItem(obj);
+```
