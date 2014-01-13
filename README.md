@@ -32,7 +32,7 @@ TableThatExtendsModel obj = new TableThatExtendsModel();
 dbh.insertItem(obj);
 ```
 
-## Insérer plusieurs élément dans une table
+## Insérer plusieurs éléments dans une table
 ```java
 TableThatExtendsModel obj = new TableThatExtendsModel();
 TableThatExtendsModel obj2 = new TableThatExtendsModel();
