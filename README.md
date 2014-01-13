@@ -12,7 +12,7 @@ DatabaseHelper dbh = new DatabaseHelper(context, DATABASE_NAME, DATABASE_VERSION
 ```java
 dbh.addTable( TableThatExtendsModel.getClass());
 ```
-## créer la base de données
+## Créer la base de données
 ```java
 dbh.createTables();
 ```
