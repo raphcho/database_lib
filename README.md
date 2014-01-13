@@ -4,7 +4,8 @@ database_lib
 ## Initialiser une base de données
 
 ```java
-DatabaseHelper dbh = new DatabaseHelper(this, DATABASE_NAME, DATABASE_VERSION);
+context = (Application / Activity)
+DatabaseHelper dbh = new DatabaseHelper(context, DATABASE_NAME, DATABASE_VERSION);
 ``` 
 
 ## Ajouter une table à la base de données
